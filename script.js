@@ -10,8 +10,8 @@ var div_mint = document.createElement("div");
 div_wrapper.style.background= "linear-gradient(white, grey)";
 div_wrapper.style.width = "100vw";
 div_wrapper.style.height = "108vh";
-// div_wrapper.style.zIndex = "10";
 div_wrapper.style.position = "absolute";
+div_wrapper.style.opacity = "0.5"
 gotBody.appendChild(div_wrapper);
 
 
@@ -24,7 +24,7 @@ for (var i = 0; i < 63; i++) {
   div_pink.style.float = "left";
   div_pink.style.paddingBottom = "11.1%";
   div_pink.style.margin = "0px";
-  div_pink.style.opacity = "0.5"
+  // div_pink.style.opacity = "0.5"
 
   gotBody.appendChild(div_pink);
 
@@ -37,7 +37,7 @@ for (var i = 0; i < 63; i++) {
     div_mint.style.paddingBottom = "11.1%";
     div_mint.style.margin = "0px";
 
-    div_mint.style.opacity = "0.5"
+    // div_mint.style.opacity = "0.5"
 
 
     gotBody.appendChild(div_mint);
